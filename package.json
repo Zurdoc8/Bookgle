@@ -16,6 +16,14 @@
     "concurrently": "^5.1.0"
   },
   "dependencies": {
-    "node": "^17.9.1"
-  }
+    "node": "^16.15.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Zurdoc8/Bookgle.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Zurdoc8/Bookgle/issues"
+  },
+  "homepage": "https://github.com/Zurdoc8/Bookgle#readme"
 }
