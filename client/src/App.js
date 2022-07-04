@@ -4,8 +4,8 @@ import SearchBooks from './pages/SearchBooks';
 import SavedBooks from './pages/SavedBooks';
 import Navbar from './components/Navbar';
 
-import { ApolloProvider } from "@apollo/react-hooks";
-import ApolloClient from 'apollo-boost';
+import { ApolloProvider, ApolloClient, InMemoryCache, createHttpLink } from "@apollo/client";
+import { setContext } from '@apollo/client/link/context'
 
 const httpLink = createHttpLink({
   uri: '/graphql',  
