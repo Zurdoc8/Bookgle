@@ -30,17 +30,6 @@ const SignupForm = () => {
       event.stopPropagation();
     }
 
-    // try {
-    //   const { data } = await createUser({
-    //     variables: { ...userFormData },
-    //   });
-
-    //   Auth.login(data.addUser.token);
-    // } catch (err) {
-    //   console.error(err);
-    //   setShowAlert(true);
-    // }
-
     try {
       const response = await createUser(userFormData);
 
